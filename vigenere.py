@@ -62,6 +62,8 @@ def chi_square_fn(text):
             chi_square.append(calc)
     return int(sum(chi_square))
 
+#we knew that keyword consisted of 8 characters
+#this should be found beforehand by using another alg. 
 k = 8
 
 for i in range(0, int(math.floor(len(string) / k))):
